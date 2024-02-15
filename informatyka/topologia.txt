@@ -1,0 +1,76 @@
+[19.01 13:18] Kamil Mazurkiewicz
+Temat: Scieć to nie tylko internet, czyli poznajemy topologię sieci komputerowych
+
+Wyróżniamy topologie logiczne i fizyczne sieci
+
+1. Topologia fizyczna określa w jaki sposób urządzenia i hosty są ze sobą połączone.
+
+Wyróżniamy następujące topologie fizyczne: 
+
+- Magistrali (Bus) - charakteryzuje się tym, że wszystkie urządzenia podłącza się do wspólnego medium transmisyjnego(kabel koncentryczny)
+
+	Zalety topologii Magistrali
+
+	- Niewielki koszt drożenia
+
+	- Brak urządzen pośredniczących
+
+	Wady topologii Magistrali
+
+	- Mała przepustowość
+
+	- Podatność na awarie sieci (przerwanie magistrali powoduje brak dostepu do internetu)
+
+- Pierścienia (Ring) - w topologii pierścienia każde urządzenie podłączone jest z dwoma sąsiadami, tworząc zamknięty krąg.
+
+	Zalety topologii Pierścienia:
+
+	- stosowanie małej ilości okablowania
+
+	- niewielki koszt drożenia 
+
+	Wady topologii Pierścienia 
+
+	- podatność na awarie
+
+	- przerwanie medium transmisyjnego lub awaria hosta spowoduje brak dostepu do internetu
+
+- Gwiazdy (Star) - w topologii gwiazdy urządzenia podłączone są do centralnego punktu stanowiącego punkt dostępu do sieci (router lub switch)
+
+	Zalety topologii gwiazdy:
+
+	- prosta w zaprojektowaniu
+
+	- łatwa administracja siecią 
+
+	- odporna na awarie
+
+	Wady topologii gwiazdy: 
+
+	- koszt rozbudowy sieci (wymagane dodatkowe urządzenia)
+
+	- ilość hostów z dostępem do internetu przewodowo zależna od urządzeń sieciowych 
+
+- Gwiazdy rozszerzonej 
+
+	Zalety topologii gwiazdy rozszerzonej
+
+	- możliwość łączenia ze sobą mniejszych sieci
+
+	- ograniczenie liczby kabli między głównym przełącznikiem a znacznie oddalonymi grupami komputerów i urządzeń
+
+	Wady topologii gwiazdy rozszerzonej 
+
+	- konieczność rozbudowy infrastruktury o dodatkowe urządzenia 
+
+	- zwiekszenie poboru energii przez infrastrukturę
+
+	- konieczność przygotowania odpowiednich miejsc na dodatkowe przełączniki
+
+- P2P
+- Topologia peer-to-peer (każdy z każdym)
+2. Topologia logiczna określa określa sposób przesyłania danych miedzy urządzeniami sieciowymi a hostami
+Rodzaje topologii logicznych: 
+- Punkt-punkt - dane przesyłane są od jednego urządzenia do drugiego bezpośrednio np. komputer z przełącznikiem lub pośrednio, np. dwóch routerów
+Topologię Punkt-Punkt wykorzystuje się w topologii fizycznej gwiazdy
+- Topologia token passing
