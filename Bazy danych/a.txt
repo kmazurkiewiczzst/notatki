@@ -1,0 +1,544 @@
+<table class="sortable wikitable jquery-tablesorter" style="color:darkgoldenrod;">
+
+<thead><tr style="font-weight:bold; background-color:#182a5b; vertical-align:bottom;">
+<th>Name
+</th>
+<th>Town
+</th>
+<th>Lvl
+</th>
+<th>Att
+</th>
+<th>Def
+</th>
+<th>Dmg-
+</th>
+<th>Dmg+
+</th>
+<th>HP
+</th>
+<th>Spd
+</th>
+<th>Gr
+</th>
+<th>Max<br>Gr
+</th>
+<th>AI<br>Val
+</th>
+<th><span class="mw-default-size mw-valign-baseline" typeof="mw:File"><a href="/index.php/Gold" title="Gold"><img alt="Gold" src="/images/9/98/Gold_symbol_for_text.png" decoding="async" width="11" height="11" data-file-width="11" data-file-height="11"></a></span> Cost
+</th>
+<th>Max Gr<br><span class="mw-default-size mw-valign-baseline" typeof="mw:File"><a href="/index.php/Gold" title="Gold"><img alt="Gold" src="/images/9/98/Gold_symbol_for_text.png" decoding="async" width="11" height="11" data-file-width="11" data-file-height="11"></a></span> cost
+</th>
+<th>Max Gr<br>AI Val
+</th>
+<th>Max Gr<br>Total HP
+</th>
+<th>HP<br>per <span class="mw-default-size mw-valign-baseline" typeof="mw:File"><a href="/index.php/Gold" title="Gold"><img alt="Gold" src="/images/9/98/Gold_symbol_for_text.png" decoding="async" width="11" height="11" data-file-width="11" data-file-height="11"></a></span>
+</th>
+<th>AI Val<br>per <span class="mw-default-size mw-valign-baseline" typeof="mw:File"><a href="/index.php/Gold" title="Gold"><img alt="Gold" src="/images/9/98/Gold_symbol_for_text.png" decoding="async" width="11" height="11" data-file-width="11" data-file-height="11"></a></span>
+</th>
+<th>Special
+</th></tr><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br></th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><br>
+</th></tr></thead><tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Halberdier" title="Halberdier"><img alt="Halberdier" src="/images/f/f8/Creature_portrait_Halberdier_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Halberdier" class="mw-redirect" title="Halberdier">Halberdier</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Castle" title="Castle"><img src="/images/6/66/Town_portrait_Castle_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>6
+</td>
+<td>5
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>10
+</td>
+<td>5
+</td>
+<td style="background-color:#D9D9D9;">14
+</td>
+<td style="background-color:#D9D9D9;">28
+</td>
+<td>115
+</td>
+<td>75
+</td>
+<td style="background-color:#D9D9D9;">2100
+</td>
+<td style="background-color:#D9D9D9;">3220
+</td>
+<td style="background-color:#D9D9D9;">280
+</td>
+<td>0.133
+</td>
+<td>1.533
+</td>
+<td>Immune to <a href="/index.php/Jousting" class="mw-redirect" title="Jousting">jousting</a>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Centaur_Captain" title="Centaur Captain"><img alt="Centaur Captain" src="/images/a/af/Creature_portrait_Centaur_Captain_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Centaur_Captain" class="mw-redirect" title="Centaur Captain">Centaur Captain</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Rampart" title="Rampart"><img src="/images/d/dc/Town_portrait_Rampart_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>6
+</td>
+<td>3
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>10
+</td>
+<td>8
+</td>
+<td style="background-color:#D9D9D9;">14
+</td>
+<td style="background-color:#D9D9D9;">28
+</td>
+<td>138
+</td>
+<td>90
+</td>
+<td style="background-color:#D9D9D9;">2520
+</td>
+<td style="background-color:#D9D9D9;">3864
+</td>
+<td style="background-color:#D9D9D9;">280
+</td>
+<td>0.111
+</td>
+<td>1.533
+</td>
+<td>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Master_Gremlin" title="Master Gremlin"><img alt="Master Gremlin" src="/images/1/16/Creature_portrait_Master_Gremlin_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Master_Gremlin" class="mw-redirect" title="Master Gremlin">Master Gremlin</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Tower" title="Tower"><img src="/images/3/32/Town_portrait_Tower_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>4
+</td>
+<td>4
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td>4
+</td>
+<td>5
+</td>
+<td style="background-color:#D9D9D9;">16
+</td>
+<td style="background-color:#D9D9D9;">32
+</td>
+<td>66
+</td>
+<td>40
+</td>
+<td style="background-color:#D9D9D9;">1280
+</td>
+<td style="background-color:#D9D9D9;">2112
+</td>
+<td style="background-color:#D9D9D9;">128
+</td>
+<td>0.1
+</td>
+<td>1.65
+</td>
+<td><a href="/index.php/Ranged" class="mw-redirect" title="Ranged">Ranged</a> (8 shots)
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Familiar" title="Familiar"><img alt="Familiar" src="/images/c/c0/Creature_portrait_Familiar_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Familiar" class="mw-redirect" title="Familiar">Familiar</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Inferno" title="Inferno"><img src="/images/e/e5/Town_portrait_Inferno_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>4
+</td>
+<td>4
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td>4
+</td>
+<td>7
+</td>
+<td style="background-color:#D9D9D9;">15
+</td>
+<td style="background-color:#D9D9D9;">38
+</td>
+<td>60
+</td>
+<td>60
+</td>
+<td style="background-color:#D9D9D9;">2280
+</td>
+<td style="background-color:#D9D9D9;">2280
+</td>
+<td style="background-color:#D9D9D9;">152
+</td>
+<td>0.067
+</td>
+<td>1.0
+</td>
+<td><a href="/index.php/Magic_channel" class="mw-redirect" title="Magic channel">Magic channel</a>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Infernal_Troglodyte" title="Infernal Troglodyte"><img alt="Infernal Troglodyte" src="/images/e/eb/Creature_portrait_Infernal_Troglodyte_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Infernal_Troglodyte" class="mw-redirect" title="Infernal Troglodyte">Infernal Troglodyte</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Dungeon" title="Dungeon"><img src="/images/b/b0/Town_portrait_Dungeon_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>5
+</td>
+<td>4
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>6
+</td>
+<td>5
+</td>
+<td style="background-color:#D9D9D9;">14
+</td>
+<td style="background-color:#D9D9D9;">35
+</td>
+<td>84
+</td>
+<td>65
+</td>
+<td style="background-color:#D9D9D9;">2275
+</td>
+<td style="background-color:#D9D9D9;">2940
+</td>
+<td style="background-color:#D9D9D9;">210
+</td>
+<td>0.092
+</td>
+<td>1.292
+</td>
+<td><a href="/index.php/Immunity" class="mw-redirect" title="Immunity">Immune</a> to <a href="/index.php/Blind" title="Blind">blind</a>, Immune to <a href="/index.php/Petrify" class="mw-redirect" title="Petrify">petrification</a>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Hobgoblin" title="Hobgoblin"><img alt="Hobgoblin" src="/images/7/78/Creature_portrait_Hobgoblin_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Hobgoblin" class="mw-redirect" title="Hobgoblin">Hobgoblin</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Stronghold" title="Stronghold"><img src="/images/a/a4/Town_portrait_Stronghold_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>5
+</td>
+<td>3
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td>5
+</td>
+<td>7
+</td>
+<td style="background-color:#D9D9D9;">15
+</td>
+<td style="background-color:#D9D9D9;">38
+</td>
+<td>78
+</td>
+<td>50
+</td>
+<td style="background-color:#D9D9D9;">1900
+</td>
+<td style="background-color:#D9D9D9;">2964
+</td>
+<td style="background-color:#D9D9D9;">190
+</td>
+<td>0.1
+</td>
+<td>1.56
+</td>
+<td>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Gnoll_Marauder" title="Gnoll Marauder"><img alt="Gnoll Marauder" src="/images/c/c0/Creature_portrait_Gnoll_Marauder_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Gnoll_Marauder" class="mw-redirect" title="Gnoll Marauder">Gnoll Marauder</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Fortress" title="Fortress"><img src="/images/f/f6/Town_portrait_Fortress_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>4
+</td>
+<td>6
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>6
+</td>
+<td>5
+</td>
+<td style="background-color:#D9D9D9;">12
+</td>
+<td style="background-color:#D9D9D9;">30
+</td>
+<td>90
+</td>
+<td>70
+</td>
+<td style="background-color:#D9D9D9;">2100
+</td>
+<td style="background-color:#D9D9D9;">2700
+</td>
+<td style="background-color:#D9D9D9;">180
+</td>
+<td>0.086
+</td>
+<td>1.286
+</td>
+<td>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Sprite" title="Sprite"><img alt="Sprite" src="/images/e/e3/Creature_portrait_Sprite_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Sprite" class="mw-redirect" title="Sprite">Sprite</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Conflux" title="Conflux"><img src="/images/4/48/Town_portrait_Conflux_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>2
+</td>
+<td>2
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>3
+</td>
+<td>9
+</td>
+<td style="background-color:#D9D9D9;">20
+</td>
+<td style="background-color:#D9D9D9;">50
+</td>
+<td>95
+</td>
+<td>30
+</td>
+<td style="background-color:#D9D9D9;">1500
+</td>
+<td style="background-color:#D9D9D9;">4750
+</td>
+<td style="background-color:#D9D9D9;">150
+</td>
+<td>0.1
+</td>
+<td>3.167
+</td>
+<td><a href="/index.php/Flying" title="Flying">Flying</a>, No enemy <a href="/index.php/Retaliation" title="Retaliation">retaliation</a>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Oceanid" title="Oceanid"><img alt="Oceanid" src="/images/5/56/Creature_portrait_Oceanid_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Oceanid" class="mw-redirect" title="Oceanid">Oceanid</a> <span class="mw-default-size" typeof="mw:File"><a href="/index.php/Horn_of_the_Abyss" title="Horn of the Abyss"><img alt="Horn of the Abyss" src="/images/c/ce/HotA.png" decoding="async" width="16" height="16" data-file-width="16" data-file-height="16"></a></span>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Cove" title="Cove"><img src="/images/4/4a/Town_portrait_Cove_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>6
+</td>
+<td>2
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>4
+</td>
+<td>8
+</td>
+<td style="background-color:#D9D9D9;">16
+</td>
+<td style="background-color:#D9D9D9;">32
+</td>
+<td>75
+</td>
+<td>45
+</td>
+<td style="background-color:#D9D9D9;">1440
+</td>
+<td style="background-color:#D9D9D9;">2400
+</td>
+<td style="background-color:#D9D9D9;">128
+</td>
+<td>0.089
+</td>
+<td>1.667
+</td>
+<td><a href="/index.php/Flying" title="Flying">Teleporting</a>, <a href="/index.php/Immunity" class="mw-redirect" title="Immunity">Immune</a> to <a href="/index.php/Ice_Bolt" title="Ice Bolt">Ice Bolt</a> and <a href="/index.php/Frost_Ring" title="Frost Ring">Frost Ring</a>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Halfling_Grenadier" title="Halfling Grenadier"><img alt="Halfling Grenadier" src="/images/d/dc/Creature_portrait_Halfling_Grenadier_small.gif" decoding="async" width="29" height="32" data-file-width="29" data-file-height="32"></a></span>&nbsp;<a href="/index.php/Halfling_Grenadier" class="mw-redirect" title="Halfling Grenadier">Halfling Grenadier</a> <span class="mw-default-size" typeof="mw:File"><a href="/index.php/Horn_of_the_Abyss" title="Horn of the Abyss"><img alt="Horn of the Abyss" src="/images/c/ce/HotA.png" decoding="async" width="16" height="16" data-file-width="16" data-file-height="16"></a></span>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Factory" title="Factory"><img src="/images/b/bc/Town_portrait_Factory_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1+
+</td>
+<td>5
+</td>
+<td>2
+</td>
+<td style="background-color:#D9D9D9;">2
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>4
+</td>
+<td>6
+</td>
+<td style="background-color:#D9D9D9;">15
+</td>
+<td style="background-color:#D9D9D9;">30
+</td>
+<td>??
+</td>
+<td>60
+</td>
+<td style="background-color:#D9D9D9;">1800
+</td>
+<td style="background-color:#D9D9D9;">????
+</td>
+<td style="background-color:#D9D9D9;">120
+</td>
+<td>0.067
+</td>
+<td>???
+</td>
+<td><a href="/index.php/Ranged" class="mw-redirect" title="Ranged">Ranged</a> (24 shots), Always have +1 <a href="/index.php/Luck" title="Luck">luck</a>, Ranged attack ignores 20% of enemy's defense skill
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Peasant" title="Peasant"><img alt="Peasant" src="/images/6/65/Creature_portrait_Peasant_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Peasant" title="Peasant">Peasant</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Neutral" title="Neutral"><img src="/images/5/50/Town_portrait_Neutral_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td>1
+</td>
+<td>1
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td>1
+</td>
+<td>3
+</td>
+<td style="background-color:#D9D9D9;">25
+</td>
+<td style="background-color:#D9D9D9;">25
+</td>
+<td>15
+</td>
+<td>10
+</td>
+<td style="background-color:#D9D9D9;">250
+</td>
+<td style="background-color:#D9D9D9;">375
+</td>
+<td style="background-color:#D9D9D9;">25
+</td>
+<td>0.1
+</td>
+<td>1.5
+</td>
+<td>
+</td></tr><tr>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Halfling" title="Halfling"><img alt="Halfling" src="/images/1/1d/Creature_portrait_Halfling_small.gif" decoding="async" width="27" height="30" data-file-width="27" data-file-height="30"></a></span>&nbsp;<a href="/index.php/Halfling" title="Halfling">Halfling</a>
+</td>
+<td style="background-color:#D9D9D9;"><span class="mw-default-size" typeof="mw:File"><a href="/index.php/Neutral" title="Neutral"><img src="/images/5/50/Town_portrait_Neutral_small.gif" decoding="async" width="46" height="30" data-file-width="46" data-file-height="30"></a></span>
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td>4
+</td>
+<td>2
+</td>
+<td style="background-color:#D9D9D9;">1
+</td>
+<td style="background-color:#D9D9D9;">3
+</td>
+<td>4
+</td>
+<td>5
+</td>
+<td style="background-color:#D9D9D9;">15
+</td>
+<td style="background-color:#D9D9D9;">15
+</td>
+<td>75
+</td>
+<td>40
+</td>
+<td style="background-color:#D9D9D9;">600
+</td>
+<td style="background-color:#D9D9D9;">1125
+</td>
+<td style="background-color:#D9D9D9;">60
+</td>
+<td>0.1
+</td>
+<td>1.875
+</td>
+<td><a href="/index.php/Ranged" class="mw-redirect" title="Ranged">Ranged</a> (24 shots), Always have +1 <a href="/index.php/Luck" title="Luck">luck</a>
+</td></tr></tbody><tfoot></tfoot></table>

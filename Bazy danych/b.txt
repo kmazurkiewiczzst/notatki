@@ -1,0 +1,61 @@
+Temat: SQL - podzapytania.
+1. Czym są podzapytania?
+2. Podzapytania niepowiązane.
+3. Podzapytania jako zmienne.
+4. Podzapytania powiązane.
+
+AD 1
+Podzapytania lub zapytania zagnieżdżone to instrukcje SELECT umieszczone wewnątrz innych instrukcji SELECT
+Podzapytanie może być użyte w dowolnej klauzuli:
+- SELECT - jako odpowiednik zmiennych funkcji
+- FROM - gdzie będziemy je wykorzystywać jako źródła danych
+- WHERE - do wybierania danych
+Stosując podzapytania, możemy osiągnąć efekt podobny do tego, jako osiągany przez wprowadzanie zmiennych w proceduralnych językach programowania.
+Podzapytanie musi być zapisane w nawiasach ()
+Podzapytanie często nazywa się zapytaniem zagnieżdżonym lub zapytaniem wewnętrznym.
+Zagnieżdżanie zapytań można stosowć oprócz instrukcji SELECT w instrukcjach: 
+INSERT, UPDATE i DELETE.
+
+AD 2
+Podzapytanie NIESKORELOWANE jest niezależne, można je wykonywać bez zapytania nadrzędnego i zawsze zwraca wynik.
+Podzapytanie NIESKORELOWANE wykonuje się tylko jeden raz, bez względu na ilość rekordów w tabelach.
+
+AD 3
+Podzapytanie jako zmienne - w klauzuli WHERE
+SELECT * FROM samochody WHERE samochody.cena_katalogowa = (SELECT MIN(samochody.cena_katalogowa) FROM samochody);
+Wyjaśnienie: Jako pierwsze wykona się zapytanie wewnętrzne i zwróci wartość 235.00 do zapytania zewnętrznego.
+Dla zapytania zewnętrznego klauzula WHERE wygląda tak: 
+SELECT * FROM samochody WHERE cena_katalogowa = 235.00;
+Operatory stosowane w podzapytaniach:
+= < <= > >= <>
+IN   NOT IN
+EXISTS   NOT EXSISTS
+ANY ALL
+
+
+SELECT
+	samochody.marka, 
+    samochody.model, 
+    samochody.nr_rejestracyjny, 
+    samochody.cena_katalogowa, 
+    (SELECT AVG(samochody.cena_katalogowa) 
+     FROM samochody 
+     WHERE samochody.marka = 'opel') AS 'średnia cena za Opla' 
+FROM samochody 
+WHERE samochody.marka = 'opel';
+
+
+Temat: Podzapytania w SQL - powtórzenie wiadomości 
+
+1. Czym jest podzapytanie - definicja.
+2. Podział podzapytań ze względu na typ zwracanych przez zapytanie wewnętrzne wartości.
+3. Podział podzapytań na powiązane i niepowiązane.
+4. Podzaoytania niepowiązane:
+  - podzapytania jako źródło danych
+  - podzapytania jako zmienne
+5. Podzapytania jako powiązane:
+  - podzapytania jako złączenia
+  - podzapytania z operatorem EXISTS
+  - podzapytania zwracające jeden wiersz i wiele wierszy
+  - podzapytania z wyrażeniami: IN, NOT IN, EXIST, NOT EXIST, ANY, ALL
+6. Na czym polega zagnieżdżanie podzapytań.
