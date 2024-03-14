@@ -1,0 +1,6 @@
+Temat: Funkcje urządzeń i protokoły
+
+Urządzenia niezbędne do obsługi i funkcjonowania sieci możemy podzielić na 3 grupy:
+- urządzenia transmisji - są wykorzystywane i przeznaczone do transportu sygnału biegnącego przez sieć (przewód sieciowy tzw. skrętka, światłowód)
+- urządzenia dostepu - odpowiedzialne za przygotowywanie danych do przesyłu sieci (karta sieciowa, switch, router)
+- urządzenia wzmacniania przesyłanych sygnałów (ekspander zasięgu Wi-Fi) 
