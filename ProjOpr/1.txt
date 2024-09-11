@@ -1,0 +1,11 @@
+Temat: Funkcje sprawdzania znaków
+
+Do funkcji sprawdzania znaków wykorzystujemy bibliotekę <cctype>
+
+isalnum - sprawdza czy znak jest cyfrą lub literą alfabetu
+isalpha - sprawdza czy znak jest literą alfabetu
+isdigit - sprawdza czy znak jest cyfrą
+islower - sprawdza czy znak jest małą literą alfabetu
+isupper - sprawdza czy znak jest dużą literą alfabetu
+isspace - sprawdza czy znak jest znakiem białym (spacja, enter, tabulacja)
+
