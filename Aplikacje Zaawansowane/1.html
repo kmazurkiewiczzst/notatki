@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+	<h2>Jakis naglowek</h2>
+	<h3>Naglowek trzeciego stopnia</h3>
+	<p>Paragraf tekstu</p>
+
+	<button id="btn1">Przycisk 1</button>
+	<button id="btn2">Przycisk 2</button>
+	<button id="btn3">Ukryj naglowek 3 po czasie.</button>
+	<script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				$("p").hide();
+				$("#btn1").hide();
+			});
+		});
+		$(document).ready(function(){
+			$("#btn2").click(function(){
+				$("h2").hide();
+				$("#btn2").hide();
+			});
+		});
+
+		$(document).ready(function(){
+			$("#btn3").click(function(){
+				$("h3	").hide(1000);
+				$("#btn3").hide(1000);
+			});
+		});
+
+		
+	</script>
+</body>
+</html>
